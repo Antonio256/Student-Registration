@@ -34,9 +34,62 @@
               <br > <br >
 
               <label for="Sex_1">Sex:</label>
-              <input type="radio" id="Sex_1" name="Sex" value="Male">
+              <input type="radio" name="Sex" value="M" checked>Male
+
               <label for="Sex_2">Sex:</label>
-              <input type="radio" id="Sex_2" name="Sex" value="Female">
+              <input type="radio" name="Sex" value="F" checked>Female
+
+              <br /> <br />
+
+              <label for="mail">Email:</label>
+              <input type="text" name="email" id="usermail">
+
+              <br /> <br />
+
+              <label for="phonenumber">Phone Number:</label>
+              <input type="text" name="phonenumber" value="">
+
+              <br> <br>
+
+              <label for="bio">Short Bio</label>
+              <textarea name="bio" rows="10" cols="30">About Yourself</textarea>
+              <br> <br>
+
+              <label for="height">Height:</label>
+              <input type="range" name="height" min="1" max="10" step="1.0" value="7.0" id="length">10
+              <br /> <br />
+
+              <label for="graduation">When did you graduate?</label>
+              <select class="grad" name="Yearofgraduation">
+
+                <option value="2014">2014></option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2018">2019</option>
+
+              </select>
+
+              <br /> <br />
+
+
+
+              <form action="index.html" method="get">
+                <p>What programming languages to Learn</p>
+                  <input list="languages" name="language">
+                  <datalist id="languages">
+
+                    <option value="php"></option>
+                    <option value="java"></option>
+                    <option value="c++"></option>
+                    <option value="C"></option>
+
+                  </datalist>
+                </form>
+
+
+
 
 
 
